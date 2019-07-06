@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/invie-EasterEgg/precache-manifest.0c11b2e66c048f75f3296633356aa14f.js"
+  "/invie-EasterEgg/precache-manifest.0daa0ffa6476db9ed0ebc6d3d0a7729a.js"
 );
 
 self.addEventListener('message', (event) => {
