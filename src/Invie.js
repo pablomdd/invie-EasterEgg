@@ -9,6 +9,8 @@ import logoPortada from './images/invie.png';
 import acustica from './images/invie-acustica.png';
 import clasica from './images/invie-classic.png';
 
+
+
 const data = {
   menu : [
     {
@@ -58,9 +60,11 @@ function App() {
     <div className="Invie">
       <section>
         {/* Portada */}
-        <Portada menu={data.menu} logo={data.logoPortada}/>
+        {/* <Portada menu={data.menu} logo={data.logoPortada}/> */}
+        <Portada />
         {/* Guitarras */}
-        <Guitarras guitarras={data.guitarras}/>
+        {/* <Guitarras guitarras={data.guitarras}/> */}
+        <Guitarras />
         {/* Footer */}
         <Footer />
       </section>

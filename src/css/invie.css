@@ -67,7 +67,7 @@ input:focus, textarea:focus {
 .portada.background.is-animated {
   background-image: url('../images/team-platzi-azul.jpg');
   background-repeat: no-repeat;
-  animation: background 15s linear infinite alternate;
+  animation: background 20s linear infinite alternate;
 }
 
 @keyframes background {
@@ -195,7 +195,7 @@ input:focus, textarea:focus {
   padding: 10px 2em;
   /*overflow: hidden;*/
   border: 1px solid #1F313C;
-  border-radius: 3px;
+  border-radius: 5px;
 
   display: flex;
   align-items: center;
@@ -205,14 +205,14 @@ input:focus, textarea:focus {
 }
 
 .guitarra:hover {
-  /*box-shadow: x y % color;*/
+  /*box-shadow: x y blur% color;*/
   box-shadow: 10px 10px 0 #ff3149;
 }
 .guitarra-name {
   font-size: 3em;
   margin: 0 0 .2em;
   padding-bottom: .2em;
-  border-bottom: 2px dashed #1e313d;
+  border-bottom: 4px dashed #1e313d;
 }
 /*.guitarra:nth-of-type(2) {*/
 /*.guitarra:nth-of-type(odd) {*/
@@ -220,11 +220,11 @@ input:focus, textarea:focus {
   box-shadow: -10px 10px 0 black;
 }
 .guitarra:nth-of-type(even) {
-  /*background: green;*/
   justify-content: flex-end;
 }
 .guitarra:nth-of-type(even) .guitarra-image {
   left: 0;
+  /* importante resetear el valor de right */
   right: initial;
 }
 .guitarra-image {
@@ -236,10 +236,12 @@ input:focus, textarea:focus {
 .guitarra ol {
   padding: 0;
   list-style: none;
+  /* inicializamos el contador de CSS con nombre 'features' */
   counter-reset: features;
 }
 .guitarra li:before {
   counter-increment: features;
+  /* Cómo se va mostrar "1. " */
   content: counter(features) ". ";
 }
 

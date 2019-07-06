@@ -24,9 +24,9 @@
 
 
 @keyframes flicker {
-  from {
+  0% {
     opacity: 0.5;
-    transform: rotateY(0);
+    transform: rotateY(0deg);
   }
   4% {
     opacity: .5;
@@ -112,10 +112,9 @@
   97% {
     opacity: .5;
   }
-  to {
+  100% {
     opacity: .5;
     transform: rotateY(360deg);
-
   }
 
 }
