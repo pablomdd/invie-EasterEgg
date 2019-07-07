@@ -13,7 +13,7 @@ Para desactivar tipear `back`.
 
 - **CSS Animations:** 250 Twitter Likes, Animations, Transitions, Keyframes
 - **Cheet.js** implemented
-- **React, Redux: ** First ever introduction to React.  Project migrated from HTML, CSS
+- **React, Redux:** First ever introduction to React.  Project migrated from HTML, CSS
 - **React Transtion Group** implemented
 - **No Responsive**
 
